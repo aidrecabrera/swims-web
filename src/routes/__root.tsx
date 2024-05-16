@@ -16,7 +16,6 @@ import {
   useNavigate,
   useRouterState,
 } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 import { DropletsIcon, Menu } from "lucide-react";
 
 export const Route = createRootRoute({
@@ -127,7 +126,6 @@ export const Route = createRootRoute({
         <div>
           <Outlet />
         </div>
-        <TanStackRouterDevtools />
       </>
     );
   },
